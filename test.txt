@@ -1,0 +1,2 @@
+This is a test file for my COSC 362 class
+This file only contains text

@@ -1,6 +1,12 @@
 
-#!/bin/bash
+#!/bin/bash -i
 
-source ExportHistory2.sh
+history > UserHistory.txt
 
+year=`date +%Y`
 
+month=`date +%m`
+
+day=`date +%d`
+
+echo "The date this history was taken is: $month-$day-$year" >> UserHistory.txt

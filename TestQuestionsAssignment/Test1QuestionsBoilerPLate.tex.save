@@ -1,0 +1,42 @@
+%\documentclass[12pt,cancelspace]{exam} \documentclass[12pt,answers]{exam} \section*{Multiple Choice:} 
+\begin{questions} %%%%% Question 1: \question How do you SSH into Savage?: \begin{description} \item[A.] 
+Possible Answer \verb' ssh username@savage.nsm.iup.edu' \item[B.] Possible Answer \verb' ssh 
+savage.nsm.iup.edu@username' \item[C.] Possible Answer \verb' username@savage.nsm.iup.edu ssh' \item[D.] 
+Possible Answer \verb' savage.nsm.iup.edu@username ssh' %answer: C \end{description} \begin{solution} (Answer 
+A): This is the correct syntax to connect to Savage.  \end{solution} \usepackage{color,geometry} %%%%% Question 
+2: \question What is the name of the type of command line we have been using?: \begin{description} \item[A.] 
+Possible Answer \verb' Unix' \item[B.] Possible Answer \verb' Linux' \item[C.] Possible Answer \verb' Bash' 
+\item[D.] Possible Answer \verb' Scripting' %answer: C \end{description} \begin{solution} (Answer C): Bash is 
+the type of command line we have been using .  \end{solution} \usepackage{verbatim} %%%%% Question 3: \question 
+How do you make a file named Script.sh executable: \begin{description} \item[A.] Possible Answer \verb' chomod 
++x Script.sh' \item[B.] Possible Answer \verb' chmod 777 Script.sh' \item[C.] Possible Answer \verb' All of the 
+Above' \item[D.] Possible Answer \verb' None of the Above' %answer: C \end{description} \begin{solution} (Answer 
+C): Both A and B are correct so answer C is right.  \end{solution} \usepackage{amsmath,amssymb} %%%%% Question 
+4: \question What is Dr. Chrispell's favorite way to make a pdf?: \begin{description} \item[A.] Possible Answer 
+\verb' Word' \item[B.] Possible Answer \verb' Google Docs' \item[C.] Possible Answer \verb' Libre Office' 
+\item[D.] Possible Answer \verb' LaTex' %answer: C \end{description} \begin{solution} (Answer D): We all know 
+this answer.  \end{solution} \usepackage{graphicx} \end{questions} \section*{Short Answer} What is the process 
+of creating a bash script (steps taken to make one): \begin{solution} The first thing you must do is create the 
+file you would like to turn into a script. \geometry{hmargin={1in,1in},vmargin={1in,1in}} \verb touch Script.sh 
+\begin{
+\verb #!/bin/bash 
+
+You then write the script
+
+\verb *insert hacker script here* 
+
+Once the script is written you want to make sure it is runnable. The easier way to do that is to do the following command 
+
+\verb chmod +x Script.sh
+
+or
+
+\verb chmod 777 Script.sh 
+
+You now can run the script using the following command 
+
+\verb ./Script.sh 
+
+That is how you create a bash script. 
+\end{solution}
+\end{document}
